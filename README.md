@@ -3,7 +3,7 @@
 AnimatedChart is a simple chart app for iOS which is animated with a wave animation. The inspiration for this project came from my [WeatherApp](https://github.com/danhenshaw/WeatherApp_V2) project so the axis labels are reflective of what I would require for that project
 
 
-<img src="https://github.com/danhenshaw/AnimatedChart/blob/master/Screenshot/AnimatedChartPreview.gif" width="206.5">
+<img src="https://github.com/danhenshaw/AnimatedChart/blob/master/Screenshot/AnimatedChartPreview.gif">
 
 
 ## Objective
