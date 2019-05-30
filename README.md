@@ -3,6 +3,9 @@
 AnimatedChart is a simple chart app for iOS which is animated with a wave animation. The inspiration for this project came from my [WeatherApp](https://github.com/danhenshaw/WeatherApp_V2) project so the axis labels are reflective of what I would require for that project
 
 
+<img src="https://github.com/danhenshaw/AnimatedChart/blob/master/Screenshot/AnimatedChartPreview.gif" width="206.5">
+
+
 ## Objective
 
 Create a graph that will be animated with a wave animation to indicate variances or an error margin in the values. I also wanted to explore UIBezierPath and CADisplayLink and custom animations.
@@ -18,7 +21,7 @@ No third party frameworks have been used in the development of this project.
 ## Features
 
 - The chart background is drawn on its own layer. The y-axis labels are evenly spaced along the y-axis and horizontal lines are drawn in between each value. The space for the x-axis labels is taken in to account when spacing the horizontal lines
--  The same method applies for the x-axis lables. After removing the width of the y-axis labels from the overall width, the remaining width is divided into the required space for the x-axis labels. 
+-  The same method applies for the x-axis labels. After removing the width of the y-axis labels from the overall width, the remaining width is divided into the required space for the x-axis labels. 
 - The chart is drawn on a seperate layer and takes the users data (which needs to be a percentage) and coverts it in the CGPoints.
 - The chart is animated with a wave animation which uses a sin function to modulate the chart at a given amplitude and frequency.
 - Tapping on the screen removes the current chart and reloads itself with new randomly generated data.
@@ -28,7 +31,7 @@ No third party frameworks have been used in the development of this project.
 
 ## Further improvements
 
-While the current state of the app is sufficient for what was required in the [WeatherApp](https://github.com/danhenshaw/WeatherApp_V2) , there are some obvious areas for improvement to make the chart more flexible and reuseable. 
+While the current state of the app is sufficient for what was required in the [WeatherApp](https://github.com/danhenshaw/WeatherApp_V2) , there are some obvious areas for improvement to make the chart more flexible and re-useable. 
 
 Such features to be developed in the futures include:
 
